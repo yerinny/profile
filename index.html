@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title>Yerin Lee</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <title>Yerin's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 
-</head>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </head>
 
 <body>
-  <nav id="navigation" class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-md navbar-light bg-white">
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#about-me">About Me <span class="sr-only">(current)</span></a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
+  
     </div>
-
   </nav>
-  <div class="top-container">
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script type="text/javascript" src="script.js"></script>
+
+  <div class="top-container" id="home">
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Yerin.</h1>
-    <h2><span>a web developer.</span></h2>
+    <div class="typewriter">
+      <h1>I'm Yerin.</h1>
+    </div>
+    <div class="typewriter">
+      <h2><span>a web developer.</span></h2>
+    </div>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
+    <img class="mountain-img" src="images/mountain.png" alt="mountain-img">
 
   </div>
 
-  <div class="middle-container" id="about-me">
-    <div class="profile">
-      <img class="profile-picture" src="images/yerin.jpg" alt="Yerin's profile picture">
-      <h2>Hello.</h2>
-      <p>I am a Full Stack Developer.</p>
-      <p>I am currently studying and looking for a job pursuing in Web Development.</p>
-      </p> I ❤ cooking and being creative.</p>
-    </div>
-    <hr>
-
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skill-img" src="images/skill.png" alt="skill-icon">
-        <h3>Language & Framework </h3>
+    <div class="middle-container" id="about-me">
+      <h2>About Me</h2>
+      <div class="about-row">
+        <img class="profile-picture " src="images/yerin.jpg" alt="Yerin's profile picture">
+        <h3>Hello!</h3>
         <p>I started learning to code in August 2018 because I wanted to challenge myself. I knew this industry required lots of knowledge and continous learning. From then, I have graduated from a boot camp and contiously learning on my own.</p>
         <p>From the bootcamp, I have learned languages like Java, Python, and JavaScript. The frameworks I was taught were Angular, Spring Boot, and Django.</p>
       </div>
 
-      <div class="hobby-row">
-        <img class="hobby-img" src="images/food.png" alt="">
-        <h3>Food Adventures</h3>
-        <p>Besides coding, I love cooking and experiencing new cuisines. I am a big foodie that loves to eat. I love cooking and baking as well.</p>
+      <hr>
+
+      <div class="skill-row">
+        <h2>Skills</h2>
+        <img class="hobby-img" src="images/skill.png" alt="skill-icon">
+        <h3>Language & Framework </h3>
+        <p>I started learning to code in August 2018 because I wanted to challenge myself. I knew this industry required lots of knowledge and continous learning. From then, I have graduated from a boot camp and contiously learning on my own.</p>
+        <p>From the bootcamp, I have learned languages like Java, Python, and JavaScript. The frameworks I was taught were Angular, Spring Boot, and Django.</p>
+      </div>
       </div>
     </div>
     <br>
@@ -85,16 +95,10 @@
     <a class="footer-link" href="https://www.linkedin.com/in/yerinlee/">LinkedIn</a>
     <a class="footer-link" href="https://github.com/yerinny">GitHub</a>
     <a class="footer-link" href="#">Website</a>
-    <p class="copyright">© 2019 Yerin Lee.</p>
+    <p class="copyright">© 2020 Yerin Lee.</p>
   </div>
 
+</div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-
-</body>
 
 </html>
