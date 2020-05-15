@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/8bf015cf97.js"></script>
   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -18,7 +19,7 @@
   </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
   <a class="navbar-brand" href="index.html">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -33,10 +34,22 @@
         <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#">Resume</a>
       </li>
-    </ul>
-
+      </ul>
+      <ul class="navbar-nav mr-sm-2">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="social-icon fas fa-envelope"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+      </ul>
   </div>
 </nav>
 
@@ -56,19 +69,19 @@
     <img class="mountain-img" src="images/mountain.png" alt="mountain-img">
 
   </div>
-
+  <br>
     <div class="middle-container" id="about-me">
-      <h2>About Me</h2>
+      <h2></h2>
       <div class="about-row">
         <img class="profile-picture " src="images/yerin.jpg" alt="Yerin's profile picture">
-        <h3>Hello!</h3>
+        <h3>About Me.</h3>
         <p>I came across coding late 2018. When I first attended a bootcamp in Burbank, I didn't even know what HTML was. Silly me, always going into something unexpected. I came out with many skill sets from coding bootcamp passing all 3 stacks. Who knew I'd pass! Although, this wasn't enough learning. I realized coding is just endless learning which I loved. It gave me motivation with all the challenges I had to face. This is just the beginning of my story.</p>
       </div>
 
       <hr>
 
       <div class="skill-row">
-        <h2>Skills</h2>
+        <h2></h2>
         <img class="hobby-img" src="images/skill.png" alt="skill-icon">
         <h3>Language & Framework </h3>
         <div>
@@ -84,7 +97,10 @@
   <div class="about-projects" id="projects">
     <div class="about-row-projects">
       <br>
+      <br>
+    <!-- <h2></h2> -->
     <h2>Projects/Internship</h2>
+
    
   <div class="about-internship">
       <iframe class="video" title="video player" src="https://www.youtube.com/embed/7mw2wAb-shw"  width="500" height="300"></iframe>
