@@ -15,6 +15,10 @@ body {
   color: #30e3cb;
 }
 
+.nav-left {
+    margin-left: 50px;
+}
+
 .typewriter h1 {
   color: #66BFBF;
   font-family: 'Caveat', cursive;
@@ -72,12 +76,13 @@ h2 {
   margin-top: 30px;
 
 }
+
 .middle-container h2 {
   color: #66BFBF;
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 10px;
 }
 
@@ -168,7 +173,7 @@ span {
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 250px;
+  padding-top: 335px;
 }
 
 .middle-container {
@@ -218,7 +223,7 @@ span {
 .top-cloud {
   position: absolute;
   right: 400px;
-  top: 50px;
+  top: 190px;
   width: 200px;
   height: 60px;
 }
