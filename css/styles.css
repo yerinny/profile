@@ -93,22 +93,6 @@ h2 {
   line-height: 2;
 }
 
-
-.skill-row h2 {
-    color: #66BFBF;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-.skill-row h3 {
-  padding-left: 300px;
-  padding-bottom: 20px;
-}
-
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
@@ -130,6 +114,7 @@ a {
 a:hover {
   color: #EAD6F6;
 }
+
 
 p {
   line-height: 2;
@@ -284,4 +269,15 @@ span {
 
 #myBtn:hover {
   background-color: #2bc4ad;
+}
+
+
+ul li {
+  list-style-type: none;
+  display: block;
+  margin-right: 40px;
+}
+
+.project-a {
+  margin: 0px;
 }
