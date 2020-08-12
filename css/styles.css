@@ -290,16 +290,3 @@ ul li {
 }
 
 
-@media screen and (min-width: 480px) {
-  /* sets a larger base font size for viewports with a minimum with of 480px, e.g. tablets, desktops, jumbotrons, etc. */
-  html {
-      font-size: 24px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  /* sets a larger base font size for viewports with a minimum with of 1024px, e.g. tablets, desktops, jumbotrons, etc. */
-  html {
-      font-size: 18px;
-  }
-}
