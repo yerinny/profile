@@ -154,6 +154,11 @@ span {
 
 }
 
+.tindog-img {
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
 
 .top-container {
   background-color: #E4F9F5;
@@ -173,7 +178,8 @@ span {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  padding: 60px 0 30px;
+  margin-top: 150px;
 }
 
 .about-row {
@@ -221,7 +227,7 @@ span {
   height: 60px;
 }
 
-
+/* 
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -247,7 +253,7 @@ span {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
-}
+} */
 
 
 #myBtn {
@@ -276,8 +282,9 @@ ul li {
   list-style-type: none;
   display: block;
   margin-right: 40px;
+  /* float: left; */
 }
 
 .project-a {
-  margin: 0px;
+  margin-top: 0px;
 }
